@@ -2,6 +2,7 @@ import { Car, Clock3, Leaf, ShieldCheck } from "lucide-react";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Reveal, { RevealGroup, RevealItem } from "@/components/ui/Reveal";
+import { business } from "@/lib/site";
 
 const points = [
   {
@@ -66,7 +67,7 @@ export default function WhyChooseUs() {
         <Reveal delay={0.2} className="mt-14 flex justify-center">
           <div className="flex flex-wrap items-center justify-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-6 py-4 text-sm text-white/60">
             <span className="font-semibold text-white">Serving:</span>
-            {["LaGrange", "West Point", "Hogansville", "Pine Mountain", "Newnan", "Grantville"].map(
+            {business.serviceArea.map(
               (city, i, arr) => (
                 <span key={city}>
                   {city}

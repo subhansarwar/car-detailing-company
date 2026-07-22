@@ -28,6 +28,7 @@ export const metadata: Metadata = {
   keywords: [
     "pressure washing LaGrange GA",
     "mobile car detailing LaGrange",
+    "pressure washing Lafayette AL",
     "driveway cleaning Troup County",
     "soft wash house washing",
     "car detailing near me",

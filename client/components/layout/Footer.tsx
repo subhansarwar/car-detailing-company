@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Clock, Droplets, Mail, MapPin, Phone } from "lucide-react";
-import { FacebookIcon, InstagramIcon } from "@/components/ui/SocialIcons";
+import { FacebookIcon, TikTokIcon } from "@/components/ui/SocialIcons";
 import { business, navLinks, services } from "@/lib/site";
 
 export default function Footer() {
@@ -38,13 +38,13 @@ export default function Footer() {
                 <FacebookIcon width={18} height={18} />
               </a>
               <a
-                href={business.social.instagram}
+                href={business.social.tiktok}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Instagram"
+                aria-label="TikTok"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-white/70 transition-all hover:-translate-y-0.5 hover:border-brand-400 hover:text-brand-300"
               >
-                <InstagramIcon width={18} height={18} />
+                <TikTokIcon width={16} height={16} />
               </a>
             </div>
           </div>

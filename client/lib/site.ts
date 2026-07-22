@@ -1,11 +1,12 @@
 // ---------------------------------------------------------------------------
 // Central business configuration.
 //
-// Facebook's page only exposed the business name + city before requiring a
-// login to render posts/reviews/hours, so the contact details, pricing and
-// testimonials below are realistic placeholders. Replace the marked fields
-// with the real values and everything on the site (header, footer, contact
-// page, schema.org JSON-LD) updates automatically.
+// Contact details, service area and socials below are the real values
+// provided by the business owner. Pricing and testimonials are still
+// realistic placeholders (Facebook's page is login-gated so real reviews
+// and rates weren't retrievable) — swap those in once available and
+// everything on the site (header, footer, contact page, schema.org
+// JSON-LD) updates automatically.
 // ---------------------------------------------------------------------------
 
 export const business = {
@@ -13,24 +14,22 @@ export const business = {
   shortName: "Terrance Mobile",
   tagline: "We bring the shine to your driveway.",
   description:
-    "LaGrange, Georgia's mobile pressure washing and car detailing crew. We come to your home, office, or driveway with everything we need — you just enjoy the results.",
+    "West Georgia & East Alabama's mobile pressure washing and car detailing crew. We come to your home, office, or driveway with everything we need — you just enjoy the results.",
   founded: 2019,
-  // PLACEHOLDER — replace with the real number from the Facebook page.
-  phone: "(706) 555-0142",
-  phoneHref: "+17065550142",
-  // PLACEHOLDER
-  email: "hello@terrancemobilewash.com",
+  phone: "(334) 652-9275",
+  phoneHref: "+13346529275",
+  email: "youngpoole90@gmail.com",
   city: "LaGrange",
   state: "GA",
   serviceArea: [
-    "LaGrange",
-    "West Point",
-    "Hogansville",
-    "Pine Mountain",
-    "Newnan",
-    "Grantville",
+    "LaGrange, GA",
+    "West Point, GA",
+    "Hogansville, GA",
+    "Pine Mountain, GA",
+    "Newnan, GA",
+    "Lafayette, AL",
   ],
-  address: "LaGrange, GA 30240",
+  address: "West Georgia & Lafayette, AL 36862",
   hours: [
     { day: "Monday – Friday", time: "8:00 AM – 6:00 PM" },
     { day: "Saturday", time: "9:00 AM – 4:00 PM" },
@@ -39,7 +38,7 @@ export const business = {
   social: {
     facebook:
       "https://www.facebook.com/p/Terrance-Mobile-Pressure-Washing-Car-Detailing-Service-LLC-61551041974224/",
-    instagram: "https://instagram.com/",
+    tiktok: "https://www.tiktok.com/@yccyoung",
   },
 } as const;
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  const mapQuery = encodeURIComponent(`${business.city}, ${business.state}`);
+  const mapQuery = encodeURIComponent(business.address);
 
   return (
     <>

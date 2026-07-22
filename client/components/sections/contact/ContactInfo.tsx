@@ -1,6 +1,6 @@
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import Reveal, { RevealGroup, RevealItem } from "@/components/ui/Reveal";
-import { FacebookIcon, InstagramIcon } from "@/components/ui/SocialIcons";
+import { FacebookIcon, TikTokIcon } from "@/components/ui/SocialIcons";
 import { business } from "@/lib/site";
 
 const cards = [
@@ -79,13 +79,13 @@ export default function ContactInfo() {
           <FacebookIcon width={20} height={20} />
         </a>
         <a
-          href={business.social.instagram}
+          href={business.social.tiktok}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Instagram"
+          aria-label="TikTok"
           className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-50 text-brand-600 transition-colors hover:bg-brand-500 hover:text-white"
         >
-          <InstagramIcon width={20} height={20} />
+          <TikTokIcon width={18} height={18} />
         </a>
         <p className="text-sm text-navy-700/75">Follow us for before/after photos & specials</p>
       </Reveal>
